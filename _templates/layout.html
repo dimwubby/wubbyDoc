@@ -1,0 +1,10 @@
+{% extends "!layout.html" %}
+{% block linktags %}
+    <div class="related"><a href="http://www.econais.com">econais</a><hr></div>
+    
+    {{ super() }}
+{% endblock %}
+{% block rootrellink %}
+    <li><img src="_static/imgo.ico" /><a href="http://www.wubby.io">wubby</a> &raquo;</li>
+    {{ super() }}
+{% endblock %}
